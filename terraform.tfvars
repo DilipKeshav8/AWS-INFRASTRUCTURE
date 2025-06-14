@@ -1,0 +1,7 @@
+project_name               = "my-app"
+db_username                = "admin"
+db_password                = "supersecret123"
+ami_id                     = "ami-09e6f87a47903347c"
+ec2_instance_profile_name  = "my-ec2-role"
+notification_email         = "dilipkeshav888@gmail.com"
+aws_region                = "us-east-1"
