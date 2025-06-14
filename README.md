@@ -4,6 +4,7 @@
 This project automates the provisioning of a secure, scalable, and production-ready AWS infrastructure using **Terraform**. It follows **Infrastructure as Code (IaC)** principles for consistency, reproducibility, version control, and modular scalability.
 
 ---
+📁 Project Structure
 
 AWS-INFRASTRUCTURE/
 
@@ -19,21 +20,21 @@ AWS-INFRASTRUCTURE/
 
 └── modules/
 
-   ├── vpc/ # Virtual Private Cloud
+     ├── vpc/ # Virtual Private Cloud
    
-   ├── alb/ # Application Load Balancer
+     ├── alb/ # Application Load Balancer
    
-   ├── ec2/ # EC2 Instances
+     ├── ec2/ # EC2 Instances
    
-   ├── iam/ # IAM Roles & Security Groups
+     ├── iam/ # IAM Roles & Security Groups
    
-   ├── rds/ # RDS Database
+     ├── rds/ # RDS Database
    
-   ├── s3/ # S3 Buckets
+     ├── s3/ # S3 Buckets
    
-   ├── secrets_manager/ # AWS Secrets Manager
+     ├── secrets_manager/ # AWS Secrets Manager
    
-   └── monitoring/ # CloudWatch Monitoring & Alarms
+     └── monitoring/ # CloudWatch Monitoring & Alarms
 
 ## 🔧 Modules Breakdown
 
