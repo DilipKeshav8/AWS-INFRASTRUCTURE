@@ -64,14 +64,15 @@ Sets up **CloudWatch** dashboards, alarms, and **SNS topics** for system health 
 
 ---
 
-🌐 Tools Used
-Tool	Purpose
-Terraform	Infrastructure as Code (IaC)
-AWS Provider	Interface to manage AWS resources
-GitHub	Version control
-CloudWatch	Monitoring and alerts
-Secrets Manager	Secure credential storage
-VS Code	Code editor and development environment
+
+| Tool            | Purpose                              |
+|-----------------|------------------------------------|
+| Terraform       | Infrastructure as Code (IaC)        |
+| AWS Provider    | Interface to manage AWS resources   |
+| GitHub          | Version control                     |
+| CloudWatch      | Monitoring and alerts               |
+| Secrets Manager | Secure credential storage           |
+| VS Code         | Code editor and development environment |
 
 ---
 
