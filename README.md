@@ -6,20 +6,20 @@ This project automates the provisioning of a secure, scalable, and production-re
 ---
 
 AWS-INFRASTRUCTURE/
-|-- main.tf                 # Root configuration file
-|-- variables.tf            # Root input variables
-|-- outputs.tf              # Root outputs
-|-- terraform.tfvars        # Environment-specific values
-|-- provider.tf             # AWS provider setup
-`-- modules/
-    |-- vpc/                # Virtual Private Cloud
-    |-- alb/                # Application Load Balancer
-    |-- ec2/                # EC2 Instances
-    |-- iam/                # IAM Roles & Security Groups
-    |-- rds/                # RDS Database
-    |-- s3/                 # S3 Buckets
-    |-- secrets_manager/    # AWS Secrets Manager
-    `-- monitoring/         # CloudWatch Monitoring & Alarms
+    main.tf                 # Root configuration file
+    variables.tf            # Root input variables
+    outputs.tf              # Root outputs
+    terraform.tfvars        # Environment-specific values
+    provider.tf             # AWS provider setup
+    modules/
+        vpc/                # Virtual Private Cloud
+        alb/                # Application Load Balancer
+        ec2/                # EC2 Instances
+        iam/                # IAM Roles & Security Groups
+        rds/                # RDS Database
+        s3/                 # S3 Buckets
+        secrets_manager/    # AWS Secrets Manager
+        monitoring/         # CloudWatch Monitoring & Alarms
 
 ## 🔧 Modules Breakdown
 
